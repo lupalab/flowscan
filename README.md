@@ -30,6 +30,9 @@ Here, we demonstrate some sample sets drawn from a trained FlowScan model.
 
 
 ## Use
+To use this version of the code you can build the provided Dockerfile or can install the necessary packages.
+`pip install dill tqdm requests matplotlib scipy tensorflow-gpu==1.12.0` should suffice.
+
 To train a model, the data must be provided in a pickle file.
 On load, the data must be returned as a dictionary of arrays with keys `train`, `valid`, and `test`.
 Each of these (3D) arrays must be organized as sets, points, and dimensions such that indexing into the first dimension (`data['train'][n])`) will return a complete set.
