@@ -23,10 +23,6 @@ We compare to several other general, exchangeable likelihood estimators, [BRUNO]
 | SpatialMNIST | -5.68 | -5.37 | **-5.26**
 
 
-## Samples
-Here, we demonstrate some sample sets drawn from a trained FlowScan model.
-
-![FlowScan Samples of MNIST Sets][fs_mnist]
 
 
 ## Use
